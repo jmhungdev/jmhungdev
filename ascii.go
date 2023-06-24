@@ -34,9 +34,24 @@ func asciiToText(ascii []int) {
 	fmt.Println()
 }
 
+func convertToCodePoints(text string) []rune {
+	// Split the text into individual runes (Unicode code points)
+	runes := []rune(text)
+
+	// Create a slice to store the Unicode code points
+	codePoints := make([]rune, 0, len(runes))
+
+	// Iterate over each rune and append its Unicode code point to the slice
+	for _, r := range runes {
+		codePoints = append(codePoints, r)
+	}
+
+	return codePoints
+}
+
 func main() {
 	// Convert text to hexadecimal
-	text := "Hello, World! 你好"
+	text := "hello 世界!"
 	fmt.Println("Text to Hexadecimal:")
 	textToHex(text)
 
@@ -47,12 +62,20 @@ func main() {
 	hex := []string{"48", "65", "6C", "6C", "6F", "2C", "20", "57", "6F", "72", "6C", "64", "21"}
 	fmt.Println("Hexadecimal to Text:")
 	hexToText(hex)
+
+	// Convert the text to Unicode code points
+	codePoints := convertToCodePoints(text)
+
+	// Print the Unicode code points
+	fmt.Println("Text:", text)
+	fmt.Println("Code Points:", codePoints)
 }
 
-// output:
 // Text to Hexadecimal:
-// 48 65 6C 6C 6F 2C 20 57 6F 72 6C 64 21 20 4F60 597D
+// 68 65 6C 6C 6F 20 4E16 754C 21
 // Text to decimal:
-// 72 101 108 108 111 44 32 87 111 114 108 100 33 32 20320 22909
+// 104 101 108 108 111 32 19990 30028 33
 // Hexadecimal to Text:
 // Hello, World!
+// Text: hello 世界!
+// Code Points: [104 101 108 108 111 32 19990 30028 33]
