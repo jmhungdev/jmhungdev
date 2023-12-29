@@ -1,9 +1,7 @@
-Hi there 👋 
-
-👦 My name is Jimmy Hung(洪）
-
-👨‍🎓 BS in Mathematics and Economics 
-
-📬 You can reach me via [LinkedIn](https://www.linkedin.com/in/jmhung/) and this [email](jmhungdev@gmail.com)
-
-💻 Interested in Fullstack Software Engineer
+Hi there, I am Jimmy Hung. 👋 
+- I am a fullStack software engineer interested in building scalable microservices and cloud architecture
+- Domain interest:
+   - 🏥 healthcare
+   - 🚙 automobile
+- Language: Javascript, Golang
+- Cloud infra: Azure, Amazon Web Services (AWS), Hashicorp
