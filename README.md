@@ -1,10 +1,10 @@
 Hi there, I am Jimmy Hung 👋 
-- I am a fullStack software engineer interested in:
+- I am a fullStack software engineer area of interest:
   - Building scalable microservices and cloud architecture
-  - Coding and Productivity optmization
+  - Productivity optimization
   - Service performance and cost optimization
 - Domain interest:
-   - 🏥 healthcare
-   - 🚙 automobile
+   - 🏥 Healthcare (Revenue Cycle, Value-Based and Fee for Service Payer Contract, HL7V2, V3, FHIR)
+   - 🚙 Automobile (currently working for CDK Global)
 - Language: Javascript, Golang, Python
-- Cloud infra: Azure, Amazon Web Services (AWS), Hashicorp
+- Cloud Infra: Azure, Amazon Web Services (AWS)
