@@ -1,2 +1,3 @@
-Hi there, I am Jimmy Hung
-software, architecture, security, artificial intelligence
+hi there, i'm jimmy hung
+
+interest: software, architecture, security, artificial intelligence
